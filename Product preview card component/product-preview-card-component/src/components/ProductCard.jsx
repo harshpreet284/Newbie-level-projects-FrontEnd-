@@ -2,11 +2,11 @@ import React from 'react'
 
 const ProductCard = () => {
   return (
-    <div>
-    <div className='bg-[#F3EBE3] w-screen h-screen flex items-center justify-center'>
-      <div className='bg-white w-xl h-auto flex rounded-md'>
-        <div className='w-960'>
-           <img loading='lazy' className='w-full h-full rounded-l-md' src="./src/assets/images/image-product-desktop.jpg" alt="" />
+    <div className='m-0 p-0 box-border'>
+    <div className='bg-[#F3EBE3]  w-screen h-screen flex items-center justify-center'>
+      <div className='bg-white w-auto h-auto sm:w-xl sm:h-auto sm:flex  rounded-md'>
+        <div className='w-72 sm:w-960'>
+           <img loading='lazy' className='w-full h-full rounded-l-md ' src="./src/assets/images/image-product-desktop.jpg" alt="" />
         </div>
          <div >
         <div>

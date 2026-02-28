@@ -5,28 +5,51 @@ const ResultSummary = () => {
     <div className='m-0 p-0 box-border'>
      <div className='bg-[#ebf1ff] h-screen w-screen flex items-center justify-center'>
       <div className='bg-white h-auto w-auto  flex'>
-        <div className='bg-[#7857ff] w-auto h-auto rounded-lg '>
+        <div className='bg-[#7857ff] w-70 h-100 rounded-lg '>
           <div>
-            <p className='text-[#c8c7ff] ml-20 mt-5'>Your Result</p>
+            <p className='text-[#c8c7ff] ml-20 mt-5 text-[18px] font-extrabold'>Your Result</p>
           </div>
-          <div className='bg-[#2421ca] rounded-full w-20 h-20'>
-            <p className='ml-27 mt-5'>76</p>
-            <p className='ml-24 mt-0.2'>of 100</p>
-          </div>
-          <div>
-            <p>Great</p>
+          <div className='bg-[#2421ca] rounded-full w-47 h-47 ml-11 mt-5'>
+            <p className='pl-14 pt-12 text-white text-6xl font-extrabold'>76</p>
+            <p className='pl-17 pt-1 text-[#7857ff] text-[14px] font-extrabold'>of 100</p>
           </div>
           <div>
-            <pre>
+            <p className='ml-25 mt-2 text-white font-bold text-2xl'>Great</p>
+          </div>
+          <div>
+            <pre className='text-[#c8c7ff] text-[12px] ml-10 mt-5'>
               {`You scored higher than 65% of
   the people who have taken
         these tests.`}
             </pre>
           </div>
         </div>
-        <div className='bg-white w-auto h-auto'>
+        <div className='bg-white w-70 h-100'>
           <div>
-            <p>Summary</p>
+            <p className='mt-5 text-black text-[18px] font-medium ml-6'>Summary</p>
+          </div>
+          <div>
+            <img src="" alt="" />
+            <p></p>
+            <p></p>
+          </div>
+           <div>
+            <img src="" alt="" />
+            <p></p>
+            <p></p>
+          </div>
+           <div>
+            <img src="" alt="" />
+            <p></p>
+            <p></p>
+          </div>
+           <div>
+            <img src="" alt="" />
+            <p></p>
+            <p></p>
+          </div>
+          <div>
+            <button></button>
           </div>
         </div>
       </div>
